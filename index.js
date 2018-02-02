@@ -3,16 +3,16 @@ const produceDrivingRange = function (){
 }
 
 const produceTipCalculator = function(){
-  return 
+  return
 }
 
 const createDriver = function(){
   let DriverId = 0
   return class{
-    constructor(){
-      this.name = name 
+    constructor(name){
+      this.name = name
       this.id = ++DriverId;
     }
-    
+
   }
 }
