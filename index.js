@@ -2,8 +2,10 @@ const produceDrivingRange = function (){
   return function()
 }
 
-const produceTipCalculator = function(){
-  return
+const produceTipCalculator = function(percentage){
+  return function(fare){
+    return fare*percentage
+  }
 }
 
 const createDriver = function(){
